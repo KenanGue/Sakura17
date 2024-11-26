@@ -1,0 +1,53 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'raleway';
+
+    height: 112px;
+    margin: 0px 80px 120px 80px;
+    ;
+
+    >img {
+        width: 64px;
+        height: 64px;
+    }
+
+    >div {
+        width: 350px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >a {
+            &:hover {
+                color: #9F0908;
+            }
+        }
+    }
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.phone_btn {
+    display: flex;
+    align-items: center;
+    background-color: #9F0908;
+    border-radius: 8px;
+    border: solid white 1px;
+    padding: 4px;
+
+    &:hover {
+        border: solid #9F0908 1px;
+    }
+
+}
+
+.phone_btn img {
+    width: 16px;
+    height: 16px;
+    padding: 4px 4px 0px 0px;
+}

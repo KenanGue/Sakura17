@@ -1,0 +1,25 @@
+section {
+    height: 144px;
+    background-color: #0A141E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px 0px 80px;
+
+    >div {
+        >a {
+            font-family: 'raleway';
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                color: grey;
+            }
+        }
+    }
+
+}
+
+.logo img {
+    height: 44px;
+}

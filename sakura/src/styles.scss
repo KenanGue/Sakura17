@@ -1,3 +1,21 @@
 *{
     margin: 0;
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(./assets/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Economica';
+    src: url(./assets/fonts/Economica/Economica-Regular.ttf);
+}
+
+.fontRaleway {
+    font-family: 'Raleway';
+}
+
+.fontEconomica {
+    font-family: 'Economica';
+}
